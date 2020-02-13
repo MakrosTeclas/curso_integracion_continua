@@ -17,16 +17,9 @@ public class Greeter {
    * Metodo de greet modificado.
    */
   public String greet(String someone) {
-    Long lalala = new Long("2333");
+    // Long lalala = new Long("2333");
     if (magico > 1) {
-      if (true) {
-        if (true) {
-          if (true) {
-            System.out.println("Sopa boba");
-          }
-        }
-      }
-        return String.format("Hello, %s!", someone);
+        return String.format("Hello, %s!", someone.toUperCase());
     } else {
         return String.format("Hello, %s!", someone);
     }
