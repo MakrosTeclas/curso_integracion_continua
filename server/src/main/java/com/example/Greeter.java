@@ -19,7 +19,7 @@ public class Greeter {
   public String greet(String someone) {
     // Long lalala = new Long("2333");
     if (magico > 1) {
-        return String.format("Hello, %s!", someone.toUperCase());
+        return String.format("Hello, %s!", someone.toUpperCase());
     } else {
         return String.format("Hello, %s!", someone);
     }
