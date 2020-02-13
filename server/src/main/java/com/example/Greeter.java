@@ -22,10 +22,11 @@ public class Greeter {
       if (true) {
         if (true) {
           if (true) {
-            return String.format("Hello, %s!", someone);
+            System.out.println("Sopa boba");
           }
         }
       }
+        return String.format("Hello, %s!", someone);
     } else {
         return String.format("Hello, %s!", someone);
     }
